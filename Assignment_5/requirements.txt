@@ -1,2 +1,2 @@
-streamlit
+streamlit==1.21.0
 cryptography>=3.4.7   
