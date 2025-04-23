@@ -1,4 +1,5 @@
 import streamlit as st
+st.set_option('server.enableCORS', False)
 import hashlib
 from cryptography.fernet import Fernet
 from security import encrypt_data, decrypt_data, hash_passkey
